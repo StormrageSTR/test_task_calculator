@@ -1,6 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5d4b7485_002D1351_002D45f1_002D9fde_002Da5b1e4dd1339/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ExpressionEvaluatedTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::67C86B64-62F7-43CB-B5AD-DCFAECD4A227::net8.0::CalculatorTest.UnitTest1.ExpressionEvaluatedTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::67C86B64-62F7-43CB-B5AD-DCFAECD4A227::net8.0::CalculatorTest.CalculatorTests.ExpressionFailedTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::67C86B64-62F7-43CB-B5AD-DCFAECD4A227::net8.0::CalculatorTest.CalculatorTests.ExpressionDivideByZeroTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
