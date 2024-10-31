@@ -7,7 +7,7 @@ public static class Calculator
         var result = EvaluateExpression(expression);
         return result;
     }
-    
+
     private static double EvaluateExpression(string expression)
     {
         expression = expression.Replace(" ", "");
@@ -15,6 +15,4 @@ public static class Calculator
 
         return RPNEvaluator.EvaluateRPN(rpnList);
     }
-    
-   
 }

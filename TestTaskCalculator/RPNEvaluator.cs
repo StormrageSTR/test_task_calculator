@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace TestTaskCalculator;
 
 // Вычисление выражения в обратной польской нотации (RPN)
@@ -11,7 +8,6 @@ public static class RPNEvaluator
         var operandStack = new Stack<double>();
 
         foreach (var item in rpnExpression)
-        {
             if (CalculatorHelper.IsNumber(item))
             {
                 operandStack.Push(double.Parse(item));
@@ -33,15 +29,13 @@ public static class RPNEvaluator
                         operandStack.Push(operand1 * operand2);
                         break;
                     case "/":
-                        if(operand2 == 0)
-                        {
+                        if (operand2 == 0)
                             throw new DivideByZeroException();
-                        }
+                        
                         operandStack.Push(operand1 / operand2);
                         break;
                 }
             }
-        }
 
         return operandStack.Pop();
     }
