@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace TestTaskCalculator;
 
 // Вычисление выражения в обратной польской нотации (RPN)

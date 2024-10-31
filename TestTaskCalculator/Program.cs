@@ -1,4 +1,5 @@
-﻿using TestTaskCalculator;
+﻿using System;
+using TestTaskCalculator;
 
 Console.WriteLine("Введите математическое выражение:");
 var expression = Console.ReadLine();
