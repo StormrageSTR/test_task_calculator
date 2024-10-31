@@ -2,11 +2,8 @@ namespace TestTaskCalculator;
 
 public static class Calculator
 {
-    public static void StartEvaluation()
+    public static void StartEvaluation(string expression)
     {
-        Console.WriteLine("Введите математическое выражение:");
-        var expression = Console.ReadLine();
-
         try
         {
             var result = EvaluateExpression(expression);
@@ -23,8 +20,7 @@ public static class Calculator
         expression = expression.Replace(" ", "");
         var rpnList = RPNSequenceConverter.ConvertToRPN(expression);
 
-        //временная заглушка
-        return default;
+        return RPNEvaluator.EvaluateRPN(rpnList);
     }
     
    
