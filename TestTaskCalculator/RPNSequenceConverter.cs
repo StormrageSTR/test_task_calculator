@@ -16,14 +16,14 @@ public class RPNSequenceConverter
             else if (CalculatorHelper.IsOperator(item))
                 AddOperatorToStack(operatorStack, item, output);
             else
-                AddBracetsAndOperatorsInBracets(item, operatorStack, output);
+                AddBracketsAndOperatorsInBrackets(item, operatorStack, output);
 
         while (operatorStack.Count > 0) output.Add(operatorStack.Pop());
 
         return output;
     }
 
-    private static void AddBracetsAndOperatorsInBracets(string item, Stack<string> operatorStack, List<string> output)
+    private static void AddBracketsAndOperatorsInBrackets(string item, Stack<string> operatorStack, List<string> output)
     {
         switch (item)
         {
