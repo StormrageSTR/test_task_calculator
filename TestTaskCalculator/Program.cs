@@ -13,6 +13,3 @@ catch (Exception ex)
 {
     Console.WriteLine($"Ошибка: {ex.Message}");
 }
-
-//var result = Calculator.StartEvaluation("2 + 3 * (5 - 1)");
-// Assert.Equal(14, result);
